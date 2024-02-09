@@ -1,5 +1,5 @@
 class Chugaev {
-    message = 'Я, Чугаев Михаил, сделал задание 4 лекции'
+    message = 'Чугаев Михаил, сделал задание 4 лекции'
 
     checkIn() {
         console.log(message)
