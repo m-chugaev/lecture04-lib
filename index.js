@@ -1,8 +1,12 @@
 class Chugaev {
-    message = 'Чугаев Михаил, сделал задание 4 лекции'
+    name = 'Чугаев Михаил'
+
+    constructor(message = '') {
+        this.message = this.name + '. ' + message
+    }
 
     checkIn() {
-        console.log(message)
+        console.log(this.message)
     }
 }
 
